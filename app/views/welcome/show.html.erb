@@ -1,0 +1,12 @@
+<h1>this App is ... witty</h1>
+<p> You Tube Vids matching your interest!! </p>
+
+<ul>
+
+	<% @videos.videos.each do |video| %>
+	<li>
+		<%= video.author.name %> - <%= video.duration %> - <%= video.player_url %>
+		<% end %>	
+	</li>
+
+</ul>

@@ -1,0 +1,13 @@
+<h1>Listing interests</h1>
+ 
+<table>
+  <tr>
+    <th>Topic</th>
+  </tr>
+ 
+  <% @interests.each do |interest| %>
+    <tr>
+      <td><%= interest.topic %></td>
+    </tr>
+  <% end %>
+</table>

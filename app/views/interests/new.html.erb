@@ -1,0 +1,12 @@
+<h1>New Interest</h1>
+
+ <%= form_for (@interest) do |f| %>
+  <p>
+    <%= f.label :topic %><br>
+    <%= f.text_field :topic %>
+  </p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
