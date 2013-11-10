@@ -7,9 +7,3 @@ ActionMailer::Base.smtp_settings = {
   :authentication       => :plain,
   :enable_starttls_auto => true
 }
-
-ActionMailer::Base.default :content_type => "html"
-# ActionMailer::Base.default_content_type = "text/html"
-ActionMailer::Base.default_url_options[:host] = "localhost:3000"
-# Mail.register_interceptor(DevelopmentMailInterceptor) if Rails.env.development?
-

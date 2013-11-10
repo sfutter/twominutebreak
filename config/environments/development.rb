@@ -31,4 +31,7 @@ Twominutebreak::Application.configure do
   # number of complex assets.
   config.assets.debug = true
 
+  #per devise instructions. have this already in initializers/setup_mail.rb. ?? 
+  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+
 end

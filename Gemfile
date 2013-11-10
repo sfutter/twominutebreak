@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 
 gem 'youtube_it'
+gem 'devise' 
+gem 'protected_attributes'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
